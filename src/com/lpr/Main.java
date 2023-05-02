@@ -37,7 +37,7 @@ public class Main {
                 if (allowedPlates.contains(plate)) {
                     ac.sendSignal();
                 }
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
         }
     }
